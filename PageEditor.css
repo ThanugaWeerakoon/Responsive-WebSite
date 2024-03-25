@@ -1,0 +1,132 @@
+
+
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+main {
+    padding: 20px;
+    animation: myAnimT 2s ease-in 0s 1 normal forwards;
+}
+
+
+section {
+    top: 20px;
+    position: relative;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+li strong {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.692);
+    border-radius: 2rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
+    padding: 5rem;
+    justify-content: center;
+    width: 40rem;
+    height: 220px;
+    margin: 6rem auto;
+    line-height: 2rem;
+    display: flex;
+}
+
+.text {
+    margin-bottom: 1rem;
+    text-align: center;
+    text-shadow: #070707;
+}
+
+.topic {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.button {
+    background-color: #1E1E1E;
+    color: #fdfdfd;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    margin: 10px auto;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .5s ease;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+
+.button:hover {
+    background-color: #dad9e000;
+    transition: all .3s ease;
+}
+
+body {
+    background-image: linear-gradient(315deg, #202125 0%, #11100f 74%);
+    color: #fdfdfd;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+.headings {
+    width: 70%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 5rem auto;
+    padding: 0 1rem;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.head {
+    margin: 5rem auto;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.Img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+}

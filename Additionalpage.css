@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+    background-position: center;
+}
+
+.naviSection {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+body{
+    background-image: url(back.jpg);
+}
+
+
+.banner {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    position: relative;
+    padding: 0 20px; 
+}
+
+.banner-card {
+    height: 300px;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.banner-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.banner-card:hover .banner-img {
+    transform: scale(1.1);
+}
+
+.banner-card .card-content {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    right: 30px; 
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.banner-card .card-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.banner-card .card-info div {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.banner-card .card-info ion-icon {
+    font-size: 20px;
+    color: rgba(34, 34, 133, 0.986);
+    margin-right: 5px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.banner-card .card-info span {
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.banner-card .card-info .quality {
+    background: rgb(28, 28, 122);
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.banner-card .card-title {
+    font-size: 2.5em;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+}
+
+
+.cast {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 10px; 
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.cast h3 {
+    font-size: 10px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    
+}
+
+.cast ul {
+    list-style: none;
+    color: rgba(255, 255, 255, 0.8); 
+    
+}
+
+.cast li {
+    margin-bottom: 5px;
+    font-size: 19px;
+    
+}
+
+.summary {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 10px; 
+    color: #ffffff;
+    text-align: justify;
+    text-shadow: 2px 2px 4px #000; 
+}
+
+.summary h3 {
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.summary p {
+    line-height: 1.6;
+}
+
+.movie-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.movie-details h3 {
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.movie-details p {
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+

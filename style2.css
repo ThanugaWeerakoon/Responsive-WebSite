@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik:wght@300;400&display=swap');
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100%;    
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0.7)), url('background2.jpg');
+    background-size:cover;
+    background-position:center;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+   
+    
+}
+
+.row{
+    display: flex;
+    height:88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+
+}
+
+h1{
+    color: #fff;
+    font-size: 80px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 140px;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 5px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    
+    
+
+
+}
+
+
+
+
+.card1{
+    background-image: url(20220329_191737.jpg);
+    
+
+}
+.card2{
+    background-image: url(20230606_184534.jpg);
+    
+
+}
+.card3{
+    background-image: url(student3.jpg);
+   
+
+}
+.card4{
+    background-image: url(Student\ 4.jpg);
+    
+}
+
+.card:hover{
+    transform: translateY(-10px);
+
+
+}
+
+.card h5{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px #000000;
+    font-size: 15px;
+    position: absolute;
+    bottom: 70px; 
+    left: 50%;
+    top: 10px;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s, bottom 0.3s;
+
+} 
+.card p {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px #000000;
+    font-size: 25px;
+    position: absolute;
+    
+    bottom: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s, bottom 0.3s;
+}
+
+.card:hover h5, .card:hover p {
+    opacity: 1;
+    bottom: 10px; 
+}
+
+
+
+

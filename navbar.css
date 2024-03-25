@@ -1,0 +1,80 @@
+.naviSection {
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .navi img {
+    height: 55px;
+    
+  }
+  
+  .navi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+  }
+  
+  .navi a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 16px;
+  margin: 0 5px;
+  transition: 0.3s;
+  margin-right: 100px;
+    
+    
+  }
+  
+  .navi a:hover {
+    background-color: #ab7442;
+    border-radius: 5px;
+  }
+  
+  .navi a.active {
+    background-color: #ab7442;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+
+footer {
+    background-color: #000000;
+    margin: auto;
+    color: #ab7442;    
+    width: 100%;
+    height: 8vh; 
+    top: 92vh;    
+    bottom: 0;
+   
+    overflow: hidden;
+    
+}
+
+.footer1 {
+    padding-top: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer2 {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer2  > a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer2  > a:hover {
+    padding: 5px;
+    background-color: #ab7442;
+    color: #000000;
+    border-radius: 10px;
+}
